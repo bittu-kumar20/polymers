@@ -1,0 +1,106 @@
+@import './color.css';
+@import './button.css';
+@import './gradient.css';
+@import './typography.css';
+
+/* Global Transitions */
+*, *::before, *::after {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+
+/* Background */
+
+.bg-primary{
+  background: var(--color-orange);
+}
+
+.bg-secondary{
+  background: var(--color-pink);
+}
+
+.bg-gradient-primary{
+  background: var(--primary-gradient);
+}
+.bg-gradient-secondary{
+  background: var(--secondary-gradient);
+}
+.bg-gradient{
+  background: var(--gradient);
+}
+
+/* Text */
+
+.text-primary{
+  color: var(--color-orange);
+}
+
+.text-secondary{
+  color: var(--color-pink);
+}
+
+.text-dark{
+  color: var(--text-dark);
+}
+.text-light{
+  color: var(--text-light);
+}
+
+.text-gradient{
+   background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+.text-many{
+  background-color: red;
+}
+
+/* Border */
+
+.border-primary{
+  border:1px solid var(--color-orange);
+}
+.border-secondary {
+  border: 1px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              var(--primary-gradient) border-box;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}

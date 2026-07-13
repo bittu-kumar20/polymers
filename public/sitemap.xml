@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://modopolymersplc.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- About Page -->
+  <url>
+    <loc>https://modopolymersplc.com/about</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Products Page -->
+  <url>
+    <loc>https://modopolymersplc.com/products</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- Manufacture Page -->
+  <url>
+    <loc>https://modopolymersplc.com/manufacture</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://modopolymersplc.com/gallery</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Contact Page -->
+  <url>
+    <loc>https://modopolymersplc.com/contact</loc>
+    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>
