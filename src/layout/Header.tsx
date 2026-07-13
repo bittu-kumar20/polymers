@@ -89,9 +89,9 @@ export default function Header() {
 
           {/* Desktop Button */}
           <div className="hidden lg:flex justify-center items-center ">
-            <a href="tel:+1112341234" className="flex gap-2 items-center px-6 py-2 bg-linear-to-r from-[#FF7A00] via-[#FF4A4A] to-[#FF007A] text-white rounded-md font-bold">
+            <a href="tel:+91 112341234" className="flex gap-2 items-center px-6 py-2 bg-linear-to-r from-[#FF7A00] via-[#FF4A4A] to-[#FF007A] text-white rounded-md font-bold">
               <FiPhone className="text-xl" />
-              <span className="text-lg">+11 1234 1234</span>
+              <span className="text-lg">+91 1234 1234</span>
             </a>
           </div>
 
@@ -163,9 +163,9 @@ export default function Header() {
 
       {/* Phone Button */}
       <div className="mt-12 w-full">
-        <a href="tel:+1112341234" className="flex justify-center w-full gap-2 items-center px-4 py-3 bg-linear-to-r from-[#FF7A00] via-[#FF4A4A] to-[#FF007A] text-white rounded-md font-bold text-base sm:text-lg shadow-lg hover:shadow-xl hover:opacity-90 transition-all">
+        <a href="tel:+91 2112341234" className="flex justify-center w-full gap-2 items-center px-4 py-3 bg-linear-to-r from-[#FF7A00] via-[#FF4A4A] to-[#FF007A] text-white rounded-md font-bold text-base sm:text-lg shadow-lg hover:shadow-xl hover:opacity-90 transition-all">
           <FiPhone className="text-xl shrink-0" />
-          <span className="whitespace-nowrap">+11 1234 1234</span>
+          <span className="whitespace-nowrap">+91  22 1234 1234</span>
         </a>
       </div>
     </div>

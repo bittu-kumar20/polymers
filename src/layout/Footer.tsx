@@ -96,7 +96,7 @@ export default function Footer() {
     <div className="w-24 sm:w-32 h-0.5 mt-2 mb-4 bg-gradient"></div>
 
     <p className="text-[16px] sm:text-[18px]">
-      Kaliti Industrial Zone, Addis Ababa, Ethiopia
+       Industrial Zone, Ahmedabad, India
     </p>
   </div>
 
@@ -109,9 +109,7 @@ export default function Footer() {
     <div className="max-w-7xl mx-auto flex flex-col items-center gap-3 text-center">
       <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-center">
         <p>© 2026 Modo Polymers PLC. All rights reserved.</p>
-        <p>
-          Designed by <a href="https://www.urlwebwala.com/" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-[#FF007A] transition-colors">URLWEBWALA</a>
-        </p>
+      
       </div>
     </div>
   </div>
